@@ -1,0 +1,68 @@
+@charset "utf-8";
+body, td, th {
+	font-size: 14px;
+	color: #FFFFFF;
+}
+body {
+	background-color: #636363;
+	background-image: url(images/NewBkg.png)
+}
+.font {
+	color: #FFFFFF;
+	font-family: 'Oswald', sans-serif;
+	font-style: normal;
+	font-variant: small-caps;
+}
+body {
+	background-position: top;
+	background-repeat: no-repeat;
+}
+ul {
+	list-style-type: none;
+	float: center;
+}
+ul li {
+	display: inline;
+}
+ul li a {
+	position: relative;
+	text-decoration: none;
+	font-family: 'Oswald', sans-serif;
+	color: #C8C8C8;
+	background-color: rgba(0, 0, 0, .5);
+	font-size: 2vw;
+	margin: 8%;
+	text-align: center;
+}
+ul li a:hover {
+	color: #FFFFFF;
+	background-color: rgba(0, 0, 0, 1);
+}
+#button {
+	position: fixed;
+	top: 3%;
+	left: 48%;
+	width: 5%;
+	max-width: 73px;
+}
+#hidden {
+	display: none;
+}
+.maintext {
+	position: fixed;
+	bottom: 30%;
+	left: 15%;
+}
+.title {
+	width: 85%;
+}
+.subtitle {
+	width: 85%;
+	height: auto;
+}
+.arrow {
+	width: 2.25%;
+	position: fixed;
+	bottom: 2%;
+	left: 49%
+}
